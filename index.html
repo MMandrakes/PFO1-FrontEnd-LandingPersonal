@@ -1,3 +1,234 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+  <!-- ==========================================
+       METADATOS OBLIGATORIOS
+       ========================================== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Landing de portafolio personal de Marcelo Zarate - Desarrollador frontend en formación" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Marcelo Zarate | Portafolio</title>
+
+  <!-- ==========================================
+       GOOGLE FONTS
+       ========================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+
+  <!-- ==========================================
+       ESTILOS
+       ========================================== -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ==========================================
+       HEADER - Barra de navegación y hero
+       ========================================== -->
+  <header class="header" id="inicio" role="banner">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="logo" href="#inicio" aria-label="Volver al inicio">Marcelo Zarate</a>
+      <ul class="nav-links" role="list">
+        <li><a href="#sobre-mi" aria-current="page">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#personal">Personal</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- ==========================================
+         HERO - Presentación principal
+         ========================================== -->
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-texto">
+        <h1 id="hero-title">Marcelo Zarate</h1>
+        <p>
+          Estudiante de desarrollo frontend apasionado por crear experiencias web
+          claras, accesibles y visualmente atractivas.
+        </p>
+        <div class="hero-cta">
+          <a class="btn" href="#contacto" aria-label="Ir al formulario de contacto">
+            📬 Contactarme
+          </a>
+          <a class="btn btn-outline" href="https://github.com/mmandrakes" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de GitHub">
+            🐙 Ver GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- Galería de fotos con animación -->
+      <div class="hero-fotos" role="img" aria-label="Fotos de perfil de Marcelo Zarate">
+        <img src="img/perfil1.jpg" alt="Marcelo Zarate - Foto de perfil 1" class="hero-img active" loading="lazy" />
+        <img src="img/perfil2.jpg" alt="Marcelo Zarate - Foto de perfil 2" class="hero-img" loading="lazy" />
+      </div>
+    </section>
+  </header>
+
+  <!-- ==========================================
+       MAIN - Contenido principal
+       ========================================== -->
+  <main role="main">
+    <!-- ==========================================
+         SOBRE MÍ
+         ========================================== -->
+    <section id="sobre-mi" class="section container" aria-labelledby="sobre-mi-title">
+      <h2 id="sobre-mi-title">Sobre mí</h2>
+      <p>
+        Me estoy formando en desarrollo frontend. Disfruto resolver problemas, aprender nuevas
+        herramientas y transformar ideas en interfaces funcionales. Mi experiencia profesional
+        proviene de las áreas de infraestructura y soporte técnico, lo que me ha permitido desarrollar
+        habilidades de resolución de problemas y trabajo en equipo.
+      </p>
+      <p>
+        Estoy entusiasmado por aplicar mis conocimientos en proyectos desafiantes y seguir creciendo
+        como desarrollador, aportando valor desde el código hasta la experiencia de usuario.
+      </p>
+    </section>
+
+    <!-- ==========================================
+         HABILIDADES - Stack tecnológico
+         ========================================== -->
+    <section id="habilidades" class="section section-alt" aria-labelledby="habilidades-title">
+      <div class="container">
+        <h2 id="habilidades-title">Stack Tecnológico</h2>
+        <p class="subtitulo">Tecnologías con las que he trabajado</p>
+
+        <!-- Backend -->
+        <div class="categoria-habilidades">
+          <h3>🖥️ Backend</h3>
+          <div class="grid-habilidades">
+            <article class="card">
+              <span class="icon" aria-hidden="true">🐍</span>
+              <h4>Python</h4>
+              <p>Fundamentos, scripts y desarrollo de aplicaciones.</p>
+            </article>
+            <article class="card">
+              <span class="icon" aria-hidden="true">☕</span>
+              <h4>Java</h4>
+              <p>Programación orientada a objetos y aplicaciones empresariales.</p>
+            </article>
+            <article class="card">
+              <span class="icon" aria-hidden="true">🐘</span>
+              <h4>PHP</h4>
+              <p>Desarrollo de aplicaciones web dinámicas.</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- Bases de Datos -->
+        <div class="categoria-habilidades">
+          <h3>🗄️ Bases de Datos</h3>
+          <div class="grid-habilidades">
+            <article class="card">
+              <span class="icon" aria-hidden="true">🐘</span>
+              <h4>PostgreSQL</h4>
+              <p>Diseño de esquemas, consultas y optimización.</p>
+            </article>
+            <article class="card">
+              <span class="icon" aria-hidden="true">🐬</span>
+              <h4>MySQL</h4>
+              <p>Modelado de datos y administración de bases de datos.</p>
+            </article>
+            <article class="card">
+              <span class="icon" aria-hidden="true">💾</span>
+              <h4>SQL Server</h4>
+              <p>Consultas avanzadas y procedimientos almacenados.</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- DevOps & Herramientas -->
+        <div class="categoria-habilidades">
+          <h3>🚀 DevOps &amp; Herramientas</h3>
+          <div class="grid-habilidades">
+            <article class="card">
+              <span class="icon" aria-hidden="true">🐳</span>
+              <h4>Docker</h4>
+              <p>Contenedorización de aplicaciones y gestión de entornos.</p>
+            </article>
+            <article class="card">
+              <span class="icon" aria-hidden="true">☸️</span>
+              <h4>Kubernetes</h4>
+              <p>Orquestación de contenedores y escalabilidad.</p>
+            </article>
+            <article class="card">
+              <span class="icon" aria-hidden="true">🌐</span>
+              <h4>Apache &amp; Tomcat</h4>
+              <p>Configuración de servidores web y despliegue de aplicaciones.</p>
+            </article>
+            <article class="card">
+              <span class="icon" aria-hidden="true">📦</span>
+              <h4>Git &amp; GitHub</h4>
+              <p>Control de versiones, ramas y colaboración en proyectos.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         PERSONAL - Hobbies y proyectos
+         ========================================== -->
+    <section id="personal" class="section container" aria-labelledby="personal-title">
+      <h2 id="personal-title">Mis hobbies</h2>
+      <p class="subtitulo">Proyectos personales que me apasionan</p>
+      <div class="grid-proyectos">
+        <article class="proyecto">
+          <img src="img/proyecto1.jpg" alt="Proyecto de electrónica - Placa con componentes" loading="lazy" />
+          <h3>Electrónica</h3>
+          <p>Reparación, armado de circuitos y proyectos con microcontroladores.</p>
+        </article>
+        <article class="proyecto">
+          <img src="img/proyecto2.jpg" alt="Impresora 3D creando una pieza" loading="lazy" />
+          <h3>Impresión 3D</h3>
+          <p>Modelado y creación de objetos en 3D, desde el diseño hasta la impresión.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         CONTACTO - Formulario
+         ========================================== -->
+    <section id="contacto" class="section section-alt" aria-labelledby="contacto-title">
+      <div class="container">
+        <h2 id="contacto-title">Contacto</h2>
+        <p class="subtitulo">¿Tienes alguna pregunta o proyecto en mente? Escríbeme.</p>
+
+        <form class="form" action="#" method="post" novalidate>
+          <div class="campo">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ej: Juan Pérez" autocomplete="name" />
+          </div>
+
+          <div class="campo">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com" autocomplete="email" />
+          </div>
+
+          <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Cuéntame sobre tu proyecto..."></textarea>
+          </div>
+
+          <button class="btn" type="submit">
+            ✉️ Enviar mensaje
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-content">
+      <p>&copy; 2026 - Marcelo Zarate</p>
+      <a href="https://github.com/mmandrakes" target="_blank" rel="noopener noreferrer">
+        GitHub: @mmandrakes
+      </a>
+    </div>
+  </footer>
+</body>
 </html>
