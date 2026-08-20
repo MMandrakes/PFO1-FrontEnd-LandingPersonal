@@ -1,10 +1,10 @@
 # PFO1 - Landing de Portafolio
 
-## 📋 Descripción
+## Descripción
 
 Landing page de portafolio personal desarrollada con HTML5 y CSS3. Incluye presentación, habilidades técnicas, proyectos personales y formulario de contacto.
 
-## 🌐 Enlaces
+## Enlaces
 
 - **Sitio en Vercel:** [https://pfo-1-frontend-landingpage-mrz.vercel.app](https://pfo-1-frontend-landingpage-mrz.vercel.app)
 - **Repositorio:** [https://github.com/mmandrakes/PFO1-FrontEnd-LandingPersonal](https://github.com/mmandrakes/PFO1-FrontEnd-LandingPersonal)
@@ -12,7 +12,7 @@ Landing page de portafolio personal desarrollada con HTML5 y CSS3. Incluye prese
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - HTML5 semántico
 - CSS3 (Flexbox, Grid, variables CSS, animaciones)
@@ -21,7 +21,7 @@ Landing page de portafolio personal desarrollada con HTML5 y CSS3. Incluye prese
 
 ---
 
-## 📐 Decisiones de diseño
+## Decisiones de diseño
 
 ### Estructura HTML
 
@@ -52,7 +52,7 @@ Landing page de portafolio personal desarrollada con HTML5 y CSS3. Incluye prese
 
 ---
 
-## 🤖 Declaración de uso de IA
+## Declaración de uso de IA
 
 | Aspecto | Detalle |
 | --------- | --------- |
@@ -75,7 +75,7 @@ No, las imágenes son propias o de uso libre.
 
 ---
 
-## 📦 Commits principales
+## Commits principales
 
 - `feat:` estructura inicial HTML
 - `feat:` estilos CSS con variables y tipografía
@@ -88,6 +88,6 @@ No, las imágenes son propias o de uso libre.
 
 ---
 
-## ✅ Estado
+## Estado
 
-✅ Proyecto completo y publicado
+Proyecto completo y publicado
